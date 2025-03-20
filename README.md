@@ -10,3 +10,8 @@
   - Relations: Tasks belong to Users and have a foreign key relation with Subject and TaskStatus.
   - CRUD operations for tasks.
   - JWT-based authentication for task creation linked to the current authenticated user.
+ 
+**Group Members**:
+- Yegizbayev Arlan
+- Alpamys Aisulu
+- Batyrbayeva Balzhan
