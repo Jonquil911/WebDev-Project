@@ -1,6 +1,16 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
+import { provideRouter } from '@angular/router';
 import { AppComponent } from './app/app.component';
+import { routes } from './app/routes';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { NgModule } from '@angular/core';
+bootstrapApplication(AppComponent, {
+  providers: [provideRouter(routes)]
+});
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+@NgModule({
+  imports: [
+    MatSidenavModule, 
+  ],
+})
+export class AppModule {}

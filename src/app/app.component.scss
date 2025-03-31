@@ -105,3 +105,19 @@ h2 {
 .task-list .delete-btn:hover {
     background: #e04848;
 }
+
+.container {
+    height: 100vh;
+    display: flex;
+  }
+  
+  .sidenav {
+    width: 250px;
+    background-color: #f4f4f4;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
