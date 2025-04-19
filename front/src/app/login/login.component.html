@@ -1,0 +1,21 @@
+<div class="container">
+
+
+
+  <div class="box" *ngIf="loginService.getLogged() == false">
+
+    <div class="text_box"><p class="text">Sign in to Acourse</p></div>
+    <form action="">
+      <label for="inputEmail">Username *</label><br>
+      <input type="text" [(ngModel)]="username" id="inputEmail" name="user" >
+      <label for="inputPassword">Password *</label><br>
+      <input type="password" [(ngModel)]="password" id="inputPassword"  name="pass">
+    </form>
+
+    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" (click)="login()">Sign in</button>
+
+  </div>
+
+
+</div>
+

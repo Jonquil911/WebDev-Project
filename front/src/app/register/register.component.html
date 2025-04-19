@@ -1,0 +1,26 @@
+<div class="container">
+
+  <div class="header">
+
+  </div>
+
+<div class="register">
+
+  <div class="image">
+
+  </div>
+
+ <div class="create_div"> <p class="create">Create your account</p></div>
+  <form action="">
+    <label for="username">Username *</label><br>
+    <input type="text"  [(ngModel)]="register.username" id="username" name="username"><br>
+    <label for="email">Email address *</label><br>
+    <input type="email" [(ngModel)]="register.email" id="email" name="email"><br>
+    <label for="password">Password *</label><br>
+    <input type="password" [(ngModel)]="register.password" id="password" name="password"><br>
+  </form>
+
+  <button (click)="registerUser()">Register</button>
+
+</div>
+</div>

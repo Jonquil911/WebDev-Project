@@ -1,0 +1,36 @@
+label{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 1%;
+}
+
+input{
+  color: #4e657e;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  width: 38vh;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+button{
+  position: relative;
+  left: 85%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-weight: 500;
+  background-color:#4e657e;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color:#3e516c;
+}

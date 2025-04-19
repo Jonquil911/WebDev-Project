@@ -1,0 +1,74 @@
+.center{
+  background-image: url("../../assets/407936-secretland_3840x2160.jpg");
+  font-family: sans-serif;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh);
+  margin-top: 1%;
+  overflow: scroll;
+  width: 100%;
+}
+
+.center h3{
+  padding-top: 10%;
+  color: whitesmoke;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.center h5{
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  padding-top: 30px;
+  text-align: center;
+}
+.center .button{
+  text-align: center;
+  padding-top: 40px;
+
+}
+.button button{
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: black;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 25px;
+  transition: .3s;
+}
+
+.button button:hover{
+  background: linear-gradient(to right bottom, #0b2141, #3e516c, #758799, #b2bfc8, #f7f9fa);
+  border: none;
+  color:white;
+}
+
+.center .about{
+  width: 50%;
+  padding-top: 25%;
+  padding-left: 25%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.center .about h4{
+  color: white;
+  font-size: 60px;
+}
+
+.center .about p{
+  padding-top: 1%;
+  color: white;
+  font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

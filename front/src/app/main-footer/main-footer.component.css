@@ -1,0 +1,27 @@
+
+.bottom-box{
+  width: 100%;
+  bottom: 0;
+  height: 3vh;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+
+.bottom-box ul{
+  text-align: center;
+  padding: 0 5%;
+
+}
+
+.bottom-box ul li{
+  display: inline-block;
+  width: 100px;
+}
+
+.bottom-box ul li a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  color:  #758799;
+}

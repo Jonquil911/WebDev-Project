@@ -1,0 +1,96 @@
+
+img {
+  height: 25vh;
+  width: 25vh;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.book {
+  padding-top: 2%;
+}
+
+.intro {
+  color: #4e657e;
+  padding-top: 2%;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+.which {
+  font-size: 40px;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+
+}
+
+label {
+  width: 3em;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto auto auto 15%;
+}
+
+
+input {
+  color: #4e657e;
+  font-size: 20px;
+  border: white;
+}
+
+
+.description {
+  font-family: Helvetica Neue, Helvetica, Arial, serif;
+  font-size: 20px;
+  left: 5%;
+  margin-bottom: 5%;
+}
+
+.list {
+  position: relative;
+  left: 13%;
+  width: 50vh;
+  margin-bottom: 3%;
+}
+
+.course {
+  padding-bottom: 25px;
+  width: 72vw;
+  transition: transform 0.3s;
+}
+
+.line {
+  border: 1px solid rgb(233, 230, 230);
+  margin-bottom: 25px;
+  padding-left: 20px;
+  width: 70vw;
+}
+
+.course:hover {
+  transform: scale(1.02);
+  z-index: 100;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+}
+
+.course a {
+  text-decoration: none;
+  color: #145faa;
+  font-size: 18px;
+}
+
+.paragraph {
+  margin-left: 45px;
+}
+
+.bookimg {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: -10px;
+}

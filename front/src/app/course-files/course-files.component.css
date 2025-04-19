@@ -1,0 +1,171 @@
+
+.title {
+  color: #4e657e;
+  padding-top: 5%;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+.subtitle {
+  text-align: left;
+  margin-bottom: 5px;
+  color: #4e657e;
+  width: 75%;
+  font-size: 20px;
+  margin-left: 13%;
+  margin-top: 4%;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  border: 1px solid #f0f0f0;
+  color: #4e657e;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 2px 10px 2px 10px;
+  width: 300px;
+}
+
+.notes {
+  margin-right: 5%;
+  margin-top: 4%;
+  margin-left: 13%;
+
+}
+
+.notes label {
+  font-size: 20px;
+  color: #4e657e;
+
+}
+
+.notes label textarea {
+  font-size: 14px;
+  width: 30em;
+  height: 5em;
+  margin-top: 5px;
+  border: 1px solid #f0f0f0;
+  color: #4e657e;
+  border-radius: 2px;
+  padding: 2px 10px 2px 10px;
+}
+
+.change {
+  display: flex;
+
+}
+
+.files {
+  position: relative;
+  left: 13%;
+  width: 50vh;
+  margin-bottom: 3%;
+}
+
+
+button {
+  position: relative;
+  left: 85%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: 500;
+  background-color: #4e657e;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #3e516c;
+}
+
+
+.description {
+  padding-left: 5.6%;
+  font-size: 14px;
+  color: gray;
+  font-weight: normal !important;
+}
+
+
+.list {
+  position: relative;
+  left: 13%;
+  width: 70vw;
+  margin-bottom: 3%;
+}
+
+.course {
+  padding-bottom: 25px;
+  width: 72vw;
+  transition: transform 0.3s;
+}
+
+.line {
+  border: 1px solid rgb(233, 230, 230);
+  margin-bottom: 25px;
+  padding-left: 20px;
+  width: 70vw;
+
+}
+
+.file:hover {
+  transform: scale(1.02);
+  z-index: 100;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #145faa;
+  font-size: 18px;
+}
+
+.paragraph {
+  margin-left: 45px;
+}
+
+.bookimg {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: -10px;
+  margin-right: 10px;
+}
+
+.file {
+  padding-bottom: 25px;
+  width: 71vw;
+}
+
+button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: 500;
+  background-color: #4e657e;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.save_btn {
+left: 13%;
+}

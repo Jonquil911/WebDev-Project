@@ -1,0 +1,23 @@
+<div *ngIf="loginService.getLogged() == false">
+  <nav class="navbar">
+    <h4 class="logo">Acourse</h4>
+    <ul>
+      <li><a class="active" routerLink="main">Home</a></li>
+      <li><a routerLink="login">Sign In</a></li>
+      <li><a routerLink="register">Register</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div *ngIf="loginService.getLogged() == true">
+  <nav class="navbar">
+    <h4 class="logo">Acourse</h4>
+    <ul>
+      <li><a class="active" routerLink="main">Home</a></li>
+      <li><a routerLink="courses">Courses</a></li>
+      <li><a routerLink="account">Account</a></li>
+    </ul>
+  </nav>
+</div>
+
+

@@ -1,0 +1,25 @@
+<div>
+  <div class="book">
+
+    <img src="https://iconutopia.com/wp-content/uploads/2016/06/rocket-book.png">
+  </div>
+
+  <div class="intro">
+    <label> Hello,
+      <input [(ngModel)]="user" placeholder="your name"/>
+    </label>
+    <p class="which">Which course do you need?</p>
+    <p class="description">Choose course and find study material about it</p>
+  </div>
+</div>
+
+<div class="list">
+  <div *ngFor="let course of courses" class="course">
+    <hr class="line">
+    <a routerLink="/course/{{course.short_name}}">
+      <img class="bookimg" src="https://img.icons8.com/cute-clipart/64/000000/cat.png"/>
+
+      <p class="paragraph"> {{course.name}}</p>
+    </a>
+  </div>
+</div>

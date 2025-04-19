@@ -1,0 +1,38 @@
+.navbar{
+  padding-top: 0.5%;
+  padding-bottom: 3rem;
+}
+.navbar .logo{
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  margin-left: 2%;
+  margin-top: 1%;
+  color:#3e516c;
+}
+
+.navbar ul{
+  float: right;
+  margin-right: 1%;
+}
+.navbar ul li{
+  list-style: none;
+  margin: 5% 8px;
+  display: inline-block;
+
+}
+.navbar ul li a{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color:  #3e516c;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: .4s;
+  border-radius: 6px;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: linear-gradient(to right bottom, #0b2141, #3e516c, #758799, #b2bfc8, #f7f9fa);
+  color:white;
+  border-radius: 6px;
+}
