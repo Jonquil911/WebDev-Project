@@ -25,7 +25,6 @@ class Files(generics.ListCreateAPIView):
 class Notes(generics.ListCreateAPIView):
   queryset = Note.objects.all()
   serializer_class = NoteSerializer
-#   permission_classes = (IsAuthenticated,)
 
 
 class Links(generics.ListCreateAPIView):
