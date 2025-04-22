@@ -8,7 +8,7 @@
   float: left;
   margin-left: 2%;
   margin-top: 1%;
-  color:#3e516c;
+  color:#539b7e;
 }
 
 .navbar ul{
@@ -24,7 +24,7 @@
 .navbar ul li a{
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  color:  #3e516c;
+  color:  #539b7e;
   padding: 6px 13px;
   text-decoration: none;
   transition: .4s;
@@ -32,7 +32,7 @@
 }
 .navbar ul li a.active,
 .navbar ul li a:hover{
-  background: linear-gradient(to right bottom, #0b2141, #3e516c, #758799, #b2bfc8, #f7f9fa);
+  background: linear-gradient(to right bottom, #0b412b, #539b7e, #759983, #b2c8b9, #f7f9fa);
   color:white;
   border-radius: 6px;
 }

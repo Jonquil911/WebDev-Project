@@ -30,8 +30,8 @@ button{
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-  border: 1px solid #758799;
-  background-color: #758799;
+  border: 1px solid #759976;
+  background-color: #759977;
   border-radius: 5px;
   width: 50%;
   margin-top: 10px;
@@ -43,7 +43,7 @@ button{
 .text{
   text-align: center;
   font-size: 40px;
-  color: #3e516c;
+  color: #3e6c47;
 margin-bottom: 6%;
   margin-top: 5%;
 }

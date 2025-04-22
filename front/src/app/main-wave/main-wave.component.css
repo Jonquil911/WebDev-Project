@@ -45,7 +45,7 @@
 }
 
 .button button:hover{
-  background: linear-gradient(to right bottom, #0b2141, #3e516c, #758799, #b2bfc8, #f7f9fa);
+  background: linear-gradient(to right bottom, #0b4116, #3e6c40, #75997d, #b2c8b6, #f7f9fa);
   border: none;
   color:white;
 }

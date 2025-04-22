@@ -81,7 +81,7 @@ fieldset {
   font-weight: 700;
   color: #000000;
   display: inline-block;
-  border: 1px solid #758799;
+  border: 1px solid #75997d;
   width: 40%;
   height: 45px;
   padding-top: 2%;
@@ -90,7 +90,7 @@ fieldset {
 
 .inputfile:focus + label,
 .inputfile + label:hover {
-  background-color: #758799;
+  background-color: #759978;
   color: white;
 }
 
@@ -105,12 +105,12 @@ fieldset {
 
 
 .inputSubmit {
-  border: 1px solid #758799;
+  border: 1px solid #779975;
   border-radius: 4px;
   width: 50%;
   height: 35px;
   padding-left: 5px;
-  color: #5a6c7e;
+  color: #5a7e5d;
 }
 
 #myfile {
@@ -120,7 +120,7 @@ fieldset {
 }
 
 label {
-  color: #5a6c7e;
+  color: #5a7e5b;
   margin-right: 10px;
 }
 
@@ -134,18 +134,18 @@ label {
 
 textarea {
   margin-top: 20px;
-  border: 1px solid #758799;
+  border: 1px solid #759979;
   border-radius: 4px;
   height: 50px;
   width: 38%;
   padding-left: 5px;
-  color: #5a6c7e;
+  color: #5a7e65;
 
 }
 
 button {
-  border: 1px solid #758799;
-  background-color: #758799;
+  border: 1px solid #759979;
+  background-color: #759979;
   border-radius: 5px;
   width: 25%;
   height: 45px;

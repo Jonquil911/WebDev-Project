@@ -5,7 +5,7 @@ label{
 }
 
 input{
-  color: #4e657e;
+  color: #4e7e4e;
   font-size: 20px;
   border-radius: 2px;
   border: 1px solid #f0f0f0;
@@ -20,7 +20,7 @@ button{
   margin-top: 2%;
   margin-bottom: 1%;
   font-weight: 500;
-  background-color:#4e657e;
+  background-color:#4e7e52;
   border: none;
   color: white;
   padding: 10px 27px;
@@ -32,5 +32,5 @@ button{
 }
 
 button:hover{
-  background-color:#3e516c;
+  background-color:#426c3e;
 }

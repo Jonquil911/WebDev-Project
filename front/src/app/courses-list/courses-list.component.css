@@ -12,7 +12,7 @@ img {
 }
 
 .intro {
-  color: #4e657e;
+  color: #4e7e4f;
   padding-top: 2%;
   margin: auto;
   width: 75%;
@@ -38,7 +38,7 @@ label {
 
 
 input {
-  color: #4e657e;
+  color: #4e7e54;
   font-size: 20px;
   border: white;
 }
@@ -80,7 +80,7 @@ input {
 
 .course a {
   text-decoration: none;
-  color: #145faa;
+  color: #14aa44;
   font-size: 18px;
 }
 

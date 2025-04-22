@@ -1,6 +1,6 @@
 
 .title {
-  color: #4e657e;
+  color: #4e7e5a;
   padding-top: 5%;
   margin: auto;
   width: 75%;
@@ -12,7 +12,7 @@
 .subtitle {
   text-align: left;
   margin-bottom: 5px;
-  color: #4e657e;
+  color: #4e7e5a;
   width: 75%;
   font-size: 20px;
   margin-left: 13%;
@@ -26,7 +26,7 @@ label {
 
 input {
   border: 1px solid #f0f0f0;
-  color: #4e657e;
+  color: #4e7e5a;
   font-size: 20px;
   border-radius: 2px;
   padding: 2px 10px 2px 10px;
@@ -42,7 +42,7 @@ input {
 
 .notes label {
   font-size: 20px;
-  color: #4e657e;
+  color: #4e7e5a;
 
 }
 
@@ -52,7 +52,7 @@ input {
   height: 5em;
   margin-top: 5px;
   border: 1px solid #f0f0f0;
-  color: #4e657e;
+  color: #4e7e5a;
   border-radius: 2px;
   padding: 2px 10px 2px 10px;
 }
@@ -76,7 +76,7 @@ button {
   margin-top: 2%;
   margin-bottom: 2%;
   font-weight: 500;
-  background-color: #4e657e;
+  background-color: #4e7e5a;
   border: none;
   color: white;
   padding: 10px 27px;
@@ -88,7 +88,7 @@ button {
 }
 
 button:hover {
-  background-color: #3e516c;
+  background-color: #3e6c4a;
 }
 
 
@@ -130,7 +130,7 @@ button:hover {
 
 .list a {
   text-decoration: none;
-  color: #145faa;
+  color: #14aa19;
   font-size: 18px;
 }
 
@@ -155,7 +155,7 @@ button {
   margin-top: 2%;
   margin-bottom: 2%;
   font-weight: 500;
-  background-color: #4e657e;
+  background-color: #4e7e5a;
   border: none;
   color: white;
   padding: 10px 27px;
