@@ -6,12 +6,43 @@
 
 ---
 
-# Course
+**Restaurant review platform
+Project description
+A web-based platform designed to allow users to discover restaurants, view their menus, and leave reviews. The platform supports search functionality, user-generated content (reviews), and displays detailed restaurant information.
+**Restaurant review platform REST API
+GET /api/restaurants/
+GET /api/restaurants/:id/menu/
+GET /api/restaurants/:id/reviews/
+DB Structure
 
-**OpenStudy**
-
----
-
-## About OpenStudy
-
-We know what it’s like to get stuck on a homework problem. We’ve been there before. OpenStady is a homework-solving website inspired by the way you work. From open source to your uploads, you can host and review files of other students. We’re here to help you succeed and get unstuck once and for all.
+**Table restaurant {
+    id bigserial [primary key]
+    name text
+    description text
+    image_url text [nullable]
+}
+**Table menu {
+    id bigserial [primary key]
+    restaurant_id bigint NOT NULL REFERENCES restaurant
+    name text
+}
+Table dish_category {
+    id bigserial [primary key]
+    name text
+}
+Table dish {
+    id bigserial [primary key]
+    menu_id bigint NOT NULL REFERENCES menu
+    category_id bigint NOT NULL REFERENCES dish_category
+    name text
+    description text [nullable]
+    price decimal(6,2)
+}
+Table review {
+    id bigserial [primary key]
+    restaurant_id bigint NOT NULL REFERENCES restaurant
+    user_id bigint NOT NULL REFERENCES users
+    text text
+    rating integer [default: 5]
+    created_at timestamp [default: current_timestamp]
+}
